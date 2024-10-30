@@ -1,0 +1,30 @@
+{
+  "name": "react-timber-website",
+  "version": "1.0.0",
+  "description": "A clothing store selling male and female formal attire that I helped create using React, Node, Javascript, and SQLite in my second year.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "cd my-react-app && react-scripts start",
+    "server": "cd my-server-app && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "sqlite3": "^5.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbasAbdi/React-Timber-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbasAbdi/React-Timber-Website/issues"
+  },
+  "homepage": "https://github.com/AbasAbdi/React-Timber-Website#readme"
+}
